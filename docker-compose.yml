@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  javadIMG:
+    container_name: RubyHTTPServer
+    build: .
+    ports:
+      - target: 80
+        published: 8080
